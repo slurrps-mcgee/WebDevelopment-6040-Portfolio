@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Site: Projects</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header></header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Projects Table -->
+        <section class="container">
+            <div class="page-header">
+                <h1 class="section-title">My Projects</h1>
+                <p class="page-subtitle">A showcase of my recent work and personal projects you can find more at my <a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
+            </div>
+
+            <!-- <div class="tech-table-wrapper desk">
+                <h2>Technology Overview</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Project</th>
+                            <th>Short Description</th>
+                            <th>Frontend</th>
+                            <th>Backend</th>
+                            <th>Other</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Code Playground</td>
+                            <td>A web-based code editor and runner for testing small snippets of code.</td>
+                            <td>Angular</td>
+                            <td>Node.js, MySQL</td>
+                            <td>Auth0, MinIO</td>
+                        </tr>
+                        <tr>
+                            <td>Chip8 Emulator</td>
+                            <td>A simple emulator for the Chip8 virtual machine, allowing users to run classic games.</td>
+                            <td>-</td>
+                            <td>Node.js</td>
+                            <td>Typescript</td>
+                        </tr>
+                        <tr>
+                            <td>Excel Sheet Processor</td>
+                            <td>A desktop application for processing and analyzing Excel sheets with custom formulas.</td>
+                            <td>Angular</td>
+                            <td>-</td>
+                            <td>Electron</td>
+                        </tr>
+                        <tr>
+                            <td>IP Address Tracker</td>
+                            <td>A web application for tracking and displaying IP addresses on a map.</td>
+                            <td>JavaScript</td>
+                            <td>-</td>
+                            <td>API</td>
+                        </tr>
+                        <tr>
+                            <td>Angular Electron Template</td>
+                            <td>A template project combining Angular and Electron for desktop applications.</td>
+                            <td>Angular</td>
+                            <td>-</td>
+                            <td>Electron</td>
+                        </tr>
+                        <tr>
+                            <td>Bootstrap Template</td>
+                            <td>A responsive website template built with Bootstrap and custom SCSS.</td>
+                            <td>Bootstrap</td>
+                            <td>-</td>
+                            <td>SCSS</td>
+                        </tr>
+                        <tr>
+                            <td>Password Manager</td>
+                            <td>A mobile app for securely storing and managing passwords offline, built with Ionic.</td>
+                            <td>Angular + Ionic</td>
+                            <td>-</td>
+                            <td>SQLite</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div> -->
+        </section>
+
+        <!-- Project Cards -->
+        <section class="container">
+            <div class="search-wrapper">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="project-search" placeholder="Search projects..." autocomplete="off">
+            </div>
+            <p id="no-results" class="no-results">No projects found matching your search.</p>
+            <div class="card-container">
+                <figure class="card">
+                    <div class="card-icon"><i class="fas fa-code"></i></div>
+                    <img src="assets/undraw_project-completed_ug9i.svg" alt="a person reviewing code on a laptop">
+                    <figcaption>Code Playground</figcaption>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Angular</span>
+                        <span class="tech-tag">Node.js</span>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Project</a>
+                </figure>
+                <figure class="card">
+                    <div class="card-icon"><i class="fas fa-gamepad"></i></div>
+                    <img src="assets/undraw_retro-video-game_l9zp.svg" alt="a retro video game on a laptop">
+                    <figcaption>Chip8 Emulator</figcaption>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Typescript</span>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Project</a>
+                </figure>
+                <figure class="card">
+                    <div class="card-icon"><i class="fas fa-table"></i></div>
+                    <img src="assets/undraw_spreadsheet_uj8z.svg" alt="a spreadsheet on a browser">
+                    <figcaption>Excel Sheet Processor</figcaption>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Angular</span>
+                        <span class="tech-tag">Electron</span>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Project</a>
+                </figure>
+                <figure class="card">
+                    <div class="card-icon"><i class="fas fa-globe"></i></div>
+                    <img src="assets/undraw_connected-world_anke.svg" alt="a connected world illustration">
+                    <figcaption>IP Address Tracker</figcaption>
+                    <div class="tech-tags">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">API</span>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Project</a>
+                </figure>
+                <figure class="card">
+                    <div class="card-icon"><i class="fab fa-angular"></i></div>
+                    <img src="assets/undraw_java-script-frameworks_i8a4.svg" alt="image of javascript frameworks">
+                    <figcaption>Angular Electron Template</figcaption>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Angular</span>
+                        <span class="tech-tag">Electron</span>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Project</a>
+                </figure>
+                <figure class="card">
+                    <div class="card-icon"><i class="fab fa-bootstrap"></i></div>
+                    <img src="assets/undraw_java-script-frameworks_i8a4.svg" alt="image of javascript frameworks">
+                    <figcaption>Bootstrap Template</figcaption>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Bootstrap</span>
+                        <span class="tech-tag">SCSS</span>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Project</a>
+                </figure>
+                <figure class="card">
+                    <div class="card-icon"><i class="fas fa-lock"></i></div>
+                    <img src="assets/undraw_enter-password_1kl4.svg" alt="image of a password screen">
+                    <figcaption>Password Manager</figcaption>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Angular</span>
+                        <span class="tech-tag">Ionic</span>
+                        <span class="tech-tag">SQLite</span>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Project</a>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer-info">
+            <img src="assets/undraw_programming.svg" alt="Portfolio Logo" id="footer-logo">
+            <p>&copy; 2026 Kenneth Lamb All Rights Reserved.</p>
+        </div>
+        <div id="footer-links">
+            <div id="footer-social" class="desk">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-github"></a>
+            </div>
+            <div id="footer-legal" class="desk">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+        <div id="footer-nav" class="desk">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        // Project Search Functionality
+        const searchInput = document.getElementById('project-search');
+        const cards = document.querySelectorAll('.card-container .card');
+        const noResults = document.getElementById('no-results');
+
+        searchInput.addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase().trim();
+            let visibleCount = 0;
+
+            cards.forEach(card => {
+                const title = card.querySelector('figcaption').textContent.toLowerCase();
+                const tags = Array.from(card.querySelectorAll('.tech-tag')).map(tag => tag.textContent.toLowerCase()).join(' ');
+                const searchableText = title + ' ' + tags;
+
+                if (searchableText.includes(searchTerm)) {
+                    card.style.display = '';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+        });
+    </script>
+</body>
+
+</html>
