@@ -685,6 +685,12 @@ table {
     overflow: hidden;
     min-width: 500px;
 }
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: "Roboto", sans-serif;
+}
 th, td {
     padding: 0.75rem 1rem;
     text-align: left;
@@ -692,7 +698,7 @@ th, td {
 }
 th {
     background: var(--secondary-color);
-    font-weight: 600;
+    font-weight: bold;
     font-family: "Roboto", sans-serif;
     text-align: center;
 }
