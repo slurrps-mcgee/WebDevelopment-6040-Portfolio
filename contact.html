@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
     <nav>
-        <ul>
+        <button id="toggler-normal" class="navbar-toggler toggler-normal icon-light focus-none border-none">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul id="nav-menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
@@ -72,7 +77,8 @@
                     </div>
                     <div class="form-group">
                         <label for="message"><i class="fas fa-comment"></i> Message</label>
-                        <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message here..."
+                            required></textarea>
                     </div>
                     <input type="submit" class="btn btn-primary btn-submit" value="Send Message">
                 </form>
@@ -106,6 +112,8 @@
             </ul>
         </div>
     </footer>
+
+    <script src="scripts/index.js"></script>
 </body>
 
 </html>
