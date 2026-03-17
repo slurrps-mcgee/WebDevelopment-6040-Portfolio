@@ -94,6 +94,17 @@ nav li a.active {
 }
 
 /* ======================
+   Audio Content Styles
+====================== */
+audio {
+    display: block;
+    margin: 1rem auto;
+    background: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+/* ======================
    Footer
 ====================== */
 footer {
